@@ -1,0 +1,27 @@
+.header-body{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-top: 5vh;
+    margin-right: 10vw;
+}
+.pages{
+    display: flex;
+    margin-left: 5vw;
+}
+.pages div{
+    padding: 0 10px;
+    font-family: 'Staatliches', cursive;
+    cursor: pointer;
+    font-size: 18px;
+    border-bottom: 2px solid #ffffff; 
+}
+.pages div:hover{
+    border-bottom: 2px solid #ff0000;
+}
+div[class*="MuiInput-root-12"]{
+    font-size: 16px;
+    
+    
+}
+

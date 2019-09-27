@@ -1,0 +1,61 @@
+.converter-body h1{
+    font-family: 'Dancing Script', cursive;
+    color: #ff0000;
+    text-align: right;
+    margin-right: 10vw;
+}
+.converter-body h3{
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    margin-left: 5vw;
+}
+
+.currency-to-hryvnia, .hryvnia-to-other-currencies{
+    display: flex;
+    margin: 25px 0 0 5vw;
+    
+}
+.currency-to-hryvnia .left-side{
+    width: 13vw;
+}
+.hryvnia-to-other-currencies .left-side{
+    width: 10vw;
+}
+.currency-to-hryvnia .left-side .input-group, .currency-to-hryvnia .right-side .input-group{
+    width: 100%;
+}
+.hryvnia-to-other-currencies .left-side .input-group, .hryvnia-to-other-currencies .right-side .input-group{
+    width: 100%;
+}
+.currency-to-hryvnia .right-side{
+    width: 10vw;
+}
+
+.currency-to-hryvnia .left-side .form-control, .hryvnia-to-other-currencies .left-side .form-control{
+    background-color: #e6e6ff;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    height: 40px;
+}
+.fas{
+    margin: 30px;
+    font-size: 40px;
+    color: #8585ad;
+}
+.currency-to-hryvnia .right-side button, .hryvnia-to-other-currencies .left-side button{
+    background-color: #ccccff;
+    height: 40px;
+    margin-top: 25px;
+    border: 1px solid #b3b3b3;
+    width: 100%;
+    margin: 0 0 20px 0;
+}
+.currency-to-hryvnia .right-side .input-group .form-control, .hryvnia-to-other-currencies .right-side .form-control{
+    background-color: #e6e6ff;
+    width: 100%;
+    border-radius: 4px;
+    text-align: center;
+    height: 40px;
+    margin-bottom: 20px;
+}

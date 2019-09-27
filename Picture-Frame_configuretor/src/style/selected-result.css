@@ -1,0 +1,85 @@
+@font-face {
+  font-family: Ariston;
+  src: url('fonts/ariston/ariston-webfont.woff');
+  font-family: Davinci;
+  src: url('fonts/davinci/davinci-webfont.woff');
+  font-family: Brody;
+  src: url('fonts/brody/jabgndg5-webfont.woff');
+}
+.selected-result-wrapper {
+  background-color: #e6e3e1;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 0px;
+}
+.selected-result-wrapper h3 {
+  border-bottom: 1px solid #d1cec9;
+  padding: 10px 18px;
+  margin-bottom: 25px;
+}
+.selected-result-wrapper p {
+  padding-left: 20px;
+  margin-bottom: 6px;
+}
+.selected-result-wrapper strong {
+  font-size: 15px;
+}
+.selected-result-wrapper .window-result {
+  border: 1px solid #d1cec9;
+  height: 290px;
+  width: 75%;
+  margin: 25px auto;
+  margin-bottom: 30px;
+  background-color: #fff;
+}
+.selected-result-wrapper .window-result .img-style {
+  padding-top: 130px;
+  text-align: center;
+}
+.selected-result-wrapper .window-result .result-container {
+  position: relative;
+  padding: 30px;
+  background-size: cover;
+  height: 285px;
+}
+.selected-result-wrapper .window-result .result-container .fonts-title,
+.selected-result-wrapper .window-result .result-container .fonts-signature,
+.selected-result-wrapper .window-result .result-container .fonts-date {
+  position: absolute;
+  font-size: 16px;
+  padding-left: 0px;
+  padding-top: 10px;
+  width: 180px;
+  text-align: center;
+  overflow: hidden;
+}
+.selected-result-wrapper .window-result .result-container .fonts-signature {
+  padding: 0px;
+  bottom: 40px;
+}
+.selected-result-wrapper .window-result .result-container .fonts-date {
+  bottom: 25px;
+}
+.selected-result-wrapper .window-result .result-container img {
+  max-width: 100%;
+}
+.selected-result-wrapper .btn {
+  width: 250px;
+  height: 50px;
+  margin-left: 33px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  background-color: #8ebb5b;
+  border: #8ebb5b;
+}
+.selected-result-wrapper span {
+  display: inline-block;
+  height: 18px;
+  width: 18px;
+  border-radius: 5px;
+  margin: 0px 3px;
+}
+.selected-result-wrapper .not-selected-finger {
+  width: 200px;
+  font-weight: 700;
+}

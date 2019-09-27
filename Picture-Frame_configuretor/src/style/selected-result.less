@@ -1,0 +1,85 @@
+@border: 1px solid #d1cec9;
+@font-face {
+    font-family: Ariston;
+    src: url('./fonts/ariston/ariston-webfont.woff');
+    font-family: Davinci;
+    src: url('./fonts/davinci/davinci-webfont.woff');
+    font-family: Brody;
+    src: url('./fonts/brody/jabgndg5-webfont.woff');
+}
+.selected-result-wrapper{
+    background-color: #e6e3e1;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 0px;
+    h3{
+        border-bottom: @border;
+        padding: 10px 18px;  
+        margin-bottom: 25px; 
+    }
+    p{
+        padding-left: 20px;
+        margin-bottom: 6px;
+    }
+    strong{
+        font-size: 15px;
+    }
+    .window-result{
+        border: @border;
+        height: 290px;
+        width: 75%;
+        margin: 25px auto;
+        margin-bottom: 30px;
+        background-color: #fff;
+        .img-style{
+            padding-top: 130px;
+            text-align: center;
+        }
+        .result-container{
+            position: relative;
+            padding: 30px;
+            background-size: cover;
+            height: 285px;
+            .fonts-title, .fonts-signature, .fonts-date{
+                position: absolute;
+                font-size: 16px;
+                padding-left: 0px;
+                padding-top: 10px;
+                width: 180px;
+                text-align: center;
+                overflow: hidden;
+            }
+            .fonts-signature{
+                padding: 0px;
+                bottom: 40px;
+            }
+            .fonts-date{
+                bottom: 25px;
+            }
+            img{
+                max-width: 100%;
+            }
+        }
+    }
+    .btn{
+        width: 250px;
+        height: 50px;
+        margin-left: 33px;
+        border-radius: 20px;
+        text-transform: uppercase;
+        background-color: #8ebb5b;
+        border: #8ebb5b;
+
+    }
+    span{
+        display: inline-block;
+        height: 18px;
+        width: 18px;
+        border-radius: 5px;
+        margin: 0px 3px; 
+    }
+    .not-selected-finger{
+        width: 200px;
+        font-weight: 700;
+    }
+}

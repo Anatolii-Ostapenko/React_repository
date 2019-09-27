@@ -1,0 +1,153 @@
+@font-face {
+  font-family: SF-Pro-Display;
+  src: url('fonts/SFUIText-Regular.ttf');
+}
+.open-games-list {
+  font-family: 'SF-Pro-Display';
+  width: 396px;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.15);
+  color: #FFFFFF;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+.open-games-list .list-title {
+  display: flex;
+  align-items: center;
+  height: 65px;
+  background-color: #0049D8;
+  padding: 2px 0 0 13px;
+}
+.open-games-list .list-title img {
+  height: 36px;
+  margin-right: 8px;
+}
+.open-games-list .list-title p {
+  font-size: 24px;
+  font-family: 'SF-Pro-Display';
+  letter-spacing: -1px;
+}
+.open-games-list .sorting {
+  margin: 6px 3px 3px 3px;
+  height: 47px;
+  background: #F3F3F3;
+  border-radius: 2px;
+}
+.open-games-list .scroll-bar-retreat {
+  padding-right: 2px;
+}
+.open-games-list .scroll-bar-retreat .wrapper-list {
+  height: 513px;
+  overflow-y: auto;
+}
+.open-games-list .scroll-bar-retreat .wrapper-list .list {
+  color: #000000;
+  font-size: 12px;
+  overflow: hidden;
+}
+.open-games-list .scroll-bar-retreat .wrapper-list .list .list-item {
+  display: flex;
+  margin: 4px;
+  width: 384px;
+  height: 64px;
+  border: 1px solid#F3F3F3;
+  box-sizing: border-box;
+  border-radius: 2px;
+}
+.open-games-list .scroll-bar-retreat .wrapper-list .list .list-item .list-item-left-side {
+  display: flex;
+  flex-direction: column;
+  height: 64px;
+}
+.open-games-list .scroll-bar-retreat .wrapper-list .list .list-item .list-item-left-side .creator,
+.open-games-list .scroll-bar-retreat .wrapper-list .list .list-item .list-item-left-side .bet {
+  display: flex;
+  height: 50vh;
+  align-items: center;
+}
+.open-games-list .scroll-bar-retreat .wrapper-list .list .list-item .list-item-left-side .creator .wallet,
+.open-games-list .scroll-bar-retreat .wrapper-list .list .list-item .list-item-left-side .bet .wallet,
+.open-games-list .scroll-bar-retreat .wrapper-list .list .list-item .list-item-left-side .creator .chart,
+.open-games-list .scroll-bar-retreat .wrapper-list .list .list-item .list-item-left-side .bet .chart {
+  margin: 0 6px 0 13px;
+}
+.open-games-list .scroll-bar-retreat .wrapper-list .list .list-item .list-item-left-side .creator .name,
+.open-games-list .scroll-bar-retreat .wrapper-list .list .list-item .list-item-left-side .bet .name,
+.open-games-list .scroll-bar-retreat .wrapper-list .list .list-item .list-item-left-side .creator .value,
+.open-games-list .scroll-bar-retreat .wrapper-list .list .list-item .list-item-left-side .bet .value {
+  margin: 0;
+  font-size: 11px;
+  font-weight: 700;
+}
+.open-games-list .scroll-bar-retreat .wrapper-list .list .list-item .list-item-left-side .creator .name,
+.open-games-list .scroll-bar-retreat .wrapper-list .list .list-item .list-item-left-side .bet .name {
+  opacity: 0.5;
+}
+.open-games-list .scroll-bar-retreat .wrapper-list .list .list-item .list-item-left-side .creator .value,
+.open-games-list .scroll-bar-retreat .wrapper-list .list .list-item .list-item-left-side .bet .value {
+  margin: 4px 0 0 5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.open-games-list .scroll-bar-retreat .wrapper-list .list .list-item .list-item-left-side .bet .value {
+  color: #0049D8;
+  font-size: 12px;
+  margin: 0 0 0 28px;
+}
+.open-games-list .scroll-bar-retreat .wrapper-list .list .list-item .list-item-left-side .bet .icon-tehnologi {
+  margin: 0 2px 4px 9px;
+}
+.open-games-list .scroll-bar-retreat .wrapper-list .list .list-item .list-item-left-side .bet .button-last-activity {
+  background: #F2994A;
+  border-radius: 2px;
+  box-sizing: border-box;
+  width: 63px;
+  height: 18.8px;
+  margin: 0 0 1vh 130px;
+  padding-top: 3px;
+  font-size: 10px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.open-games-list .scroll-bar-retreat .wrapper-list .list .list-item .left-side-width {
+  width: 235px;
+}
+.open-games-list .scroll-bar-retreat .wrapper-list .list .list-item .left-side-width .button-last-activity {
+  display: none;
+}
+.open-games-list .scroll-bar-retreat .wrapper-list .list .list-item .list-item-right-side {
+  display: none;
+}
+.open-games-list .scroll-bar-retreat .wrapper-list .list .list-item .list-item-right-side .button {
+  color: #FFFFFF;
+  box-sizing: border-box;
+  background: #F2994A;
+  border-radius: 4px;
+  width: 118px;
+  height: 35px;
+  margin: 13px 18px;
+  border: 2px solid;
+  border-color: #ADC3EE;
+  display: flex;
+  align-items: center;
+  padding-left: 27px;
+  cursor: pointer;
+}
+.open-games-list .scroll-bar-retreat .wrapper-list .list .list-item .list-item-right-side img {
+  padding-right: 9px;
+}
+.open-games-list .scroll-bar-retreat .wrapper-list .list .list-item .highlight {
+  display: block;
+  width: 148px;
+  background: #80A4EC;
+  border-radius: 1px;
+}
+.open-games-list .scroll-bar-retreat .wrapper-list::-webkit-scrollbar {
+  width: 5px;
+}
+.open-games-list .scroll-bar-retreat .wrapper-list::-webkit-scrollbar-track {
+  color: #FFFFFF;
+}
+.open-games-list .scroll-bar-retreat .wrapper-list::-webkit-scrollbar-thumb {
+  background-color: #C4C4C4;
+  border-radius: 25px;
+}

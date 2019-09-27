@@ -1,0 +1,45 @@
+.total-won {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  border: 1px solid #01347A;
+  box-sizing: border-box;
+  height: 64px;
+  display: flex;
+  justify-content: space-around;
+}
+.total-won .total-left-side {
+  color: #001B50;
+  font-size: 14px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+.total-won .total-left-side p:nth-child(1) {
+  margin: 0;
+}
+.total-won .total-left-side p:nth-child(2) {
+  margin: 4px 0 0 0;
+}
+.total-won .total-right-side {
+  background: #FFFFFF;
+  border: 1px solid rgba(20, 58, 146, 0.25);
+  box-sizing: border-box;
+  border-radius: 2px;
+  font-size: 12px;
+  height: 45px;
+  margin: 9px 3px 0 0;
+  width: 143px;
+  padding-left: 10px;
+}
+.total-won .total-right-side p {
+  margin: 4px 0 5px 0;
+  font-weight: 700;
+}
+.total-won .total-right-side p:nth-child(2) {
+  margin-top: 7px;
+  font-weight: 700;
+}
+.total-won .total-right-side p span {
+  margin-left: 11px;
+  font-weight: 100;
+}

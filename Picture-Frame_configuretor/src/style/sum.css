@@ -1,0 +1,14 @@
+.sum-wrapper {
+  border-top: 1px solid #d1cec9;
+}
+.sum-wrapper h5 {
+  float: right;
+  padding-right: 20px;
+}
+.sum-wrapper h5 strong {
+  font-size: 45px;
+  color: #8ebb5b;
+}
+.sum-wrapper h5 span {
+  color: #8ebb5b;
+}

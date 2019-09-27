@@ -1,0 +1,34 @@
+.input-group .form-control {
+  margin-right: 10px;
+  border-radius: 15px !important;
+}
+.input-group .form-control:focus {
+  border: #8ebb5b;
+}
+.input-group label {
+  width: 58%;
+  font-weight: 600;
+}
+.form-group {
+  margin: 0px;
+}
+.validation {
+  color: #f00;
+  font-size: 12px;
+  margin-bottom: 5px;
+  padding-left: 15px;
+  height: 18px;
+}
+.btn-outline-success {
+  border: 1px solid #8ebb5b;
+  border-radius: 15px;
+  width: 100px;
+  margin-right: 10px;
+}
+.btn-outline-success:hover {
+  background-color: #8ebb5b;
+  border: 1px solid #8ebb5b;
+}
+.btn-outline-success:focus {
+  background-color: #8ebb5b;
+}

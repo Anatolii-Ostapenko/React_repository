@@ -1,0 +1,94 @@
+@font-face {
+  font-family: bebas-neue-bold;
+  src: url('fonts/bebasneuebold.ttf');
+}
+.raffles {
+  margin: 3vh 5.2vw 0 0;
+  width: 252px;
+}
+.raffles .wrapper-loterey {
+  border: 1px solid #EEEEEE;
+  padding: 3px;
+  height: 375px;
+  margin-bottom: 3px;
+}
+.raffles .test {
+  padding: 3px 0 0 0;
+  height: 230px;
+  margin-right: 0px;
+}
+.raffles .test .winner p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.raffles .test2 {
+  padding: 0 11px 0 9px;
+  margin-bottom: 0px;
+}
+.raffles .test2 .prize-left-side {
+  display: flex;
+  align-items: center;
+  width: 90px;
+}
+.raffles .test2 .prize-left-side p:nth-child(1) {
+  display: none;
+}
+.raffles .test2 .prize-right-side p {
+  margin: 2px 0 0 10px;
+}
+.crypts-list {
+  width: 252px;
+  height: 231px;
+  border: 1px solid #EEEEEE;
+  box-sizing: border-box;
+}
+.crypts-list .crypts-was-used {
+  background: linear-gradient(83.83deg, #003479 30.26%, rgba(51, 0, 255, 0.65) 118.27%);
+  border-radius: 4px;
+  height: 64px;
+  width: 244px;
+  margin: 3px auto;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  color: #FFFFFF;
+  padding: 15px;
+  box-sizing: border-box;
+}
+.crypts-list .container div {
+  display: flex;
+  justify-content: center;
+}
+.crypts-list .container div:last-child {
+  margin-top: 2px;
+}
+.crypts-list .container div p {
+  color: #FFFFFF;
+  height: 35px;
+  background: #F2994A;
+  border-radius: 2px;
+  margin: 1px 0 0 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  box-sizing: border-box;
+  line-height: 33px;
+  padding-left: 12px;
+}
+.crypts-list .container div p:first-child {
+  width: 63px;
+  margin-right: 4px;
+}
+.crypts-list .container div p:last-child {
+  width: 177px;
+}
+.crypts-list .more-play {
+  display: flex;
+  margin: 25px 0 0 1vw;
+}
+.crypts-list .more-play img {
+  width: 44px;
+  height: 44px;
+  padding-right: 1vw;
+}

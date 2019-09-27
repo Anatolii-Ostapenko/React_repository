@@ -1,0 +1,44 @@
+.exchange-rate-table{
+    position: relative;
+    width: 48vw;
+    margin: 0 auto;
+}
+.exchange-rate-table h1{
+    font-family: 'Dancing Script', cursive;
+}
+.table-header{
+    font-family: 'Staatliches', cursive;
+    padding-bottom: 10px;
+}
+thead tr th{
+    text-align: center;
+}
+tbody{
+    text-align: center;
+}
+tbody tr td img{
+    max-height: 40px;
+}
+tbody tr td .addIcon{
+    height: 30px;
+}
+.strings:hover {
+    filter: invert(.1);
+    background-color: #d0d0d0;
+}
+.strings:nth-child(2n+1){
+    background-color: #f9f9f9;
+    font-weight: 300;
+}
+.strings td{
+    border-right: 1px solid #cccccc;
+}
+tbody .selected-сurrencies{
+    background-color: #f6787821;
+}
+tbody .selected-сurrencies td{
+    border-right: 1px solid #cccccc;
+}
+.strings td:last-child{
+    border-right: none;
+}

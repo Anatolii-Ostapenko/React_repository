@@ -1,0 +1,40 @@
+@font-face {
+  font-family: SFUIText-Bold;
+  src: url('fonts/SFUIText-Bold.ttf');
+}
+.games {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-left: 2.3vw;
+  padding-top: 3vh;
+}
+.games a {
+  text-decoration: none;
+}
+.game-item {
+  height: 211px;
+  background: #FFFFFF;
+  border: 1px solid #EEEEEE;
+  box-sizing: border-box;
+  margin-right: 2.3vw;
+}
+.game-item img {
+  padding: 5px 5px 0 5px;
+}
+.game-item p {
+  font-family: "SFUIText-Bold";
+  font-size: 15px;
+  margin-top: 8px;
+  text-align: center;
+  color: #000000;
+}
+@media only screen and (max-width: 1362px) {
+  .games {
+    margin-left: 1vw;
+    height: 435px;
+  }
+  .games .game-item {
+    margin-right: 1vw;
+  }
+}

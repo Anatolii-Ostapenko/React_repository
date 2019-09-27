@@ -1,0 +1,19 @@
+.tabs-wrapper {
+  border-bottom: 1px solid #d1cec9;
+}
+.tabs-wrapper .select {
+  font-weight: 800;
+}
+.tabs-wrapper span {
+  display: inline-block;
+  padding: 0px 35px;
+  margin: 16px 0px;
+  border-right: 1px solid #d1cec9;
+  font-size: 14px;
+}
+.tabs-wrapper span:first-child {
+  padding-left: 10px;
+}
+.tabs-wrapper span:last-child {
+  border: none;
+}

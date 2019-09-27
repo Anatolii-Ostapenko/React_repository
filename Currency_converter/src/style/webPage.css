@@ -1,0 +1,9 @@
+body{
+    margin: 0px;
+}
+.webPage-body{
+    background-image: linear-gradient(#ffffff, #d9b3ff);
+    height: 100vh;
+    
+}
+

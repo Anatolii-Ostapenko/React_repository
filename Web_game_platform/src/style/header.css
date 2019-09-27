@@ -1,0 +1,41 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 9px;
+}
+.header .left-side {
+  display: flex;
+  margin: 1.5vh 0 0 5.3vw;
+}
+.header .left-side .logo-oxo {
+  width: 93px;
+  height: 52px;
+  margin-right: 65px;
+}
+.header .left-side .home-link {
+  width: 62px;
+  height: 14px;
+  margin-top: 19px;
+}
+.header .right-side {
+  display: flex;
+  margin-top: 2.4vh;
+}
+.header .right-side h3 {
+  font-size: 18px;
+  color: #0049D8;
+  margin-top: 10px;
+}
+.header .right-side h3 span {
+  margin-right: -2px;
+}
+.header .right-side .logo-tron {
+  width: 39px;
+  height: 42px;
+  margin-left: 25px;
+}
+.header .right-side .logo-ethereum {
+  width: 67px;
+  height: 41px;
+  margin: 0 5.3vw 0 1.3vw;
+}

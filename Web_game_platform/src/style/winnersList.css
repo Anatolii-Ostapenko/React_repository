@@ -1,0 +1,87 @@
+@font-face {
+  font-family: SF-Pro-Display;
+  src: url('fonts/SFUIText-Regular.ttf');
+}
+.winners-list {
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.15);
+  font-family: 'SF-Pro-Display';
+  height: 327px;
+  width: 396px;
+}
+.winners-list .winners-list-title {
+  box-sizing: border-box;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+  background: linear-gradient(80.04deg, #003479 30.26%, rgba(51, 0, 255, 0.65) 118.27%);
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  justify-content: space-between;
+  height: 64px;
+  margin-bottom: 16px;
+  padding: 0 11px;
+  width: 396px;
+}
+.winners-list .winners-list-title .title-left-side {
+  color: #FFFFFF;
+  font-size: 14px;
+}
+.winners-list .winners-list-title .title-left-side p:nth-child(1) {
+  margin: 17px 0 0 0;
+}
+.winners-list .winners-list-title .title-left-side p:nth-child(2) {
+  margin: 4px 0 0 0;
+}
+.winners-list .winners-list-title .title-right-side {
+  background: #FFFFFF;
+  border: 1px solid rgba(20, 58, 146, 0.25);
+  box-sizing: border-box;
+  border-radius: 2px;
+  font-size: 12px;
+  height: 45px;
+  margin-top: 12px;
+  width: 158px;
+}
+.winners-list .winners-list-title .title-right-side p {
+  margin: 4px 0 0 5px;
+}
+.winners-list .winners-list-title .title-right-side p:nth-child(2) {
+  margin-top: 7px;
+}
+.winners-list .winners-list-title .title-right-side p span {
+  margin-left: 11px;
+}
+.winners-list .stamp {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+}
+.winners-list .stamp img {
+  margin: 0 5px 0 12px;
+}
+.winners-list .stamp p {
+  margin: 0;
+}
+.winners-list .last-winers {
+  box-sizing: border-box;
+  padding: 16px 14px 0 14px;
+}
+.winners-list .last-winers .item-winers {
+  border: 1px solid #F3F3F3;
+  box-sizing: border-box;
+  border-radius: 2px;
+  font-size: 12px;
+  height: 58px;
+  margin-bottom: 2px;
+  width: 368px;
+}
+.winners-list .last-winers .item-winers p {
+  margin: 8px 0 0 10px;
+  font-size: 11px;
+}
+.winners-list .last-winers .item-winers .wrapp-bottom-line {
+  display: flex;
+}
+.winners-list .last-winers .item-winers .wrapp-bottom-line div:nth-child(1) {
+  display: flex;
+}
