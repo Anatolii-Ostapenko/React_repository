@@ -1,0 +1,31 @@
+.header-exchange-rate .wrap-header {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+}
+.header-exchange-rate .wrap-header input[type="date"]::-webkit-inner-spin-button {
+  display: none;
+}
+.header-exchange-rate .wrap-header input[type="date"]::-webkit-clear-button {
+  display: none;
+}
+.header-exchange-rate .wrap-header input[type="date"] {
+  -webkit-appearance: none;
+  font-size: 18px;
+  border: 1px solid #ecf0f1;
+  background: #ffffff;
+  padding: 5px;
+  height: 30px;
+}
+.header-exchange-rate .wrap-links {
+  margin-bottom: 20px;
+}
+.header-exchange-rate .wrap-links a {
+  color: #000000;
+  font-size: 18px;
+  padding: 15px;
+}
+.header-exchange-rate .wrap-links a:hover {
+  color: #ff0000;
+  font-weight: 700;
+}

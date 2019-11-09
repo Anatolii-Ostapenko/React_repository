@@ -1,0 +1,14 @@
+.wrapper {
+  box-shadow: 0 0 2px 0 #ddd;
+  width: 60vw;
+  margin: 20px auto;
+  padding: 20px 50px;
+}
+.wrapper .table {
+  text-align: center;
+}
+@media (max-width: 900px) {
+  .wrapper {
+    width: 80vw;
+  }
+}

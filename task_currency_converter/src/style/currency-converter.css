@@ -1,0 +1,16 @@
+.currency-converter {
+  display: flex;
+  align-items: center;
+}
+.currency-converter .left-block,
+.currency-converter .right-block {
+  flex-grow: 1;
+  margin: 0px 20px;
+}
+.currency-converter .left-block select,
+.currency-converter .right-block select {
+  margin-bottom: 25px;
+}
+.currency-converter .fa {
+  font-size: 30px;
+}

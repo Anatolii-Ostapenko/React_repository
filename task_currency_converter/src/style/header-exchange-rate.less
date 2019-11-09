@@ -1,0 +1,37 @@
+@universelFontSize: 18px;
+.header-exchange-rate{
+    .wrap-header{
+        display: flex;
+        justify-content: space-between;
+        height: 50px;
+        input[type="date"]::-webkit-inner-spin-button { 
+            display: none;
+        }
+        input[type="date"]::-webkit-clear-button {
+            display: none;
+        }
+        input[type="date"] {
+            -webkit-appearance: none;
+            font-size: @universelFontSize;
+            border:1px solid #ecf0f1;
+            background: #ffffff;
+            padding:5px;
+            height: 30px;
+        }
+    }
+    .wrap-links{
+        margin-bottom: 20px;
+        a{
+            color: #000000;
+            font-size: @universelFontSize;
+            padding: 15px;
+            &:hover{
+                color: #ff0000;
+                font-weight: 700;
+            }
+            
+        }
+        
+        
+    }
+}
